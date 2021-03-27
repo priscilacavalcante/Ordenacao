@@ -15,5 +15,4 @@ public class SelectionSort implements Sortable {
             }
         }
     }
-
 }
