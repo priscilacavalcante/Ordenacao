@@ -1,12 +1,12 @@
 import java.util.Arrays;
 
-import sort.BubbleSort;
+import sort.*;
 
 public class Main {
     public static void main(String[] args) {
         int[] array = {5, 4, 3, 2, 1};
 
-        var sortable = new BubbleSort();
+        var sortable = new SelectionSort();
         sortable.sort(array);
 
         printArray(array);

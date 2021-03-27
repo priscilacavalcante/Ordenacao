@@ -1,5 +1,7 @@
 package sort;
 
+import static util.ArrayUtils.swap;
+
 public class BubbleSort implements Sortable {
 
     @Override
@@ -19,11 +21,4 @@ public class BubbleSort implements Sortable {
             size -= 1;
         } while (changed);
     }
-
-    private void swap(int[] array, int p1, int p2) {
-        int aux = array[p1];
-        array[p1] = array[p2];
-        array[p2] = aux;
-    }
-
 }
