@@ -54,9 +54,12 @@ public class Main {
 
     public static int[] generateDesc(int size) {
         int[] arr = new int[size];
-        for (int i = size; i >= 0; i--) {
-            arr[i] = i;
+        int j = 0;
+        for (int i = size - 1; i >= 0; i--) {
+            arr[j] = i;
+            j++;
         }
+
         return arr;
     }
 
