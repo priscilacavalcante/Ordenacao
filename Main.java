@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int[] array = {5, 4, 3, 2, 1};
 
-        var sortable = new QuickSort();
+        var sortable = new HeapSort();
         sortable.sort(array);
 
         printArray(array);
