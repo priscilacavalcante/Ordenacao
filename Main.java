@@ -4,9 +4,9 @@ import sort.*;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = {4, 6, 7, 3, 5, 1, 2, 8};
+        int[] array = {5, 4, 3, 2, 1};
 
-        var sortable = new ShellSort();
+        var sortable = new CountingSort();
         sortable.sort(array);
 
         printArray(array);

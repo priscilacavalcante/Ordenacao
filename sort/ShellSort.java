@@ -24,6 +24,6 @@ public class ShellSort implements Sortable{
                 }
                 array[j + h] = aux;
             }
-        } while (h != 1);   
+        } while (h > 1);   
     }
 }
