@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int[] array = {4, 6, 7, 3, 5, 1, 2, 8};
 
-        var sortable = new MergeSort();
+        var sortable = new ShellSort();
         sortable.sort(array);
 
         printArray(array);
