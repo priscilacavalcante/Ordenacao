@@ -12,7 +12,7 @@ public class MeasureUtils {
         end = System.nanoTime();
     }
 
-    public void printDiff() {
+    public void print() {
         System.out.println("The algorithm took " + (end - start) + "ns to execute.");
     }
 }
